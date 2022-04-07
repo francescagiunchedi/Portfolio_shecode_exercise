@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #48d6d2;
+}
+h1,
+h2 {
+  font-family: "Work Sans", sans-serif;
+}
+
+.home-page-title {
+  margin-left: 23%;
+}
+.color-background {
+  max-width: 100%;
+  background-color: var(--primary-color);
+  padding: 18% 0 14%;
+  clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+}
+.color-background h1 {
+  color: white;
+
+  font-size: 40px;
+  font-weight: bold;
+}
+.color-background h2 {
+  margin-bottom: 30px;
+  color: white;
+  font-size: 28px;
+  font-weight: 300;
+}
+.button-container {
+  margin-top: 80px;
+}
+.button {
+  margin-right: 97px;
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  padding: 15px 30px;
+  border-radius: 15px;
+  border: 1px solid white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.button:hover {
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+  color: var(--primary-color);
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 15px;
+  border: 1px solid white;
+  font-size: 18px;
+  font-weight: 500;
+}
