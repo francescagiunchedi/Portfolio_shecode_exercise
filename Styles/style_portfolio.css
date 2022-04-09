@@ -22,7 +22,7 @@ h1,h2,h3{
 }
 
 .title-introduction{
-  
+  text-align: left;
   color: white;
   
 }
@@ -47,24 +47,17 @@ h1,h2,h3{
 }
 
 
-.btn-brand{
+.btn-brand,.btn-brand:visited{
   text-decoration: none;
   background-color: var(--primary-color);
   color: white;
   font-weight: bold;
-  padding: 15px 25px;
+  padding: 15px 30px;
   border: 1px solid white;
   border-radius: 15px;
+  margin-right: 60px;
 }
-.btn-brand:visited{
-  text-decoration: none;
-  background-color: var(--primary-color);
-  color: white;
-  font-weight: bold;
-  padding: 15px 25px;
-  border: 1px solid white;
-  border-radius: 15px;
-}
+
 .btn-brand:hover{
   text-decoration: none;
   background-color: white;
@@ -97,10 +90,8 @@ h1,h2,h3{
   
 }
 .title-introduction{
-  text-align: center;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-top: 9%;
+  text-align: left;
+
 }
 .title-introduction h1{
   
@@ -138,10 +129,8 @@ h1,h2,h3{
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
 }
 .title-introduction{
-  text-align: left;
-  margin-left: 5%;
-  margin-right: 5%;
- 
+  text-align: center;
+
 }
 .title-introduction h1{
 
@@ -162,25 +151,31 @@ h1,h2,h3{
   
 }
 
-.btn-brand:visited{
-  display: block;
-  text-decoration: none;
-  background-color: var(--primary-color);
-  color: white;
-  font-weight: bold;
- 
-}
-.btn-brand:hover{
+.btn-brand,.btn-brand:visited{
   text-decoration: none;
   display: block;
   background-color: white;
   color: var(--primary-color);
   font-weight: bold;
-  
+  border: 1px solid white;
+  border-radius: 0px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+.btn-brand:hover{
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 0px;
+    margin-right: 0px;
+
 }
 
 .botton-container{
   margin-top: 90px;
+  width: 100vw;
 }
 
 
