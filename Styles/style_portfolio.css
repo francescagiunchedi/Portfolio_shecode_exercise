@@ -10,6 +10,7 @@ h1,h2,h3{
 .bg-frontpage{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-top: 5vh;
   justify-items: center;
   background-color: var(--primary-color);
@@ -21,9 +22,8 @@ h1,h2,h3{
 }
 
 .title-introduction{
-  margin-top: 20px;
+  
   color: white;
-  margin-left: 20%;
   
 }
 
@@ -47,7 +47,7 @@ h1,h2,h3{
 }
 
 
-.btn-brand, bran{
+.btn-brand{
   text-decoration: none;
   background-color: var(--primary-color);
   color: white;
@@ -75,21 +75,72 @@ h1,h2,h3{
   border-radius: 15px;
 }
 
+.botton-container{
+  margin-top: 90px;
+}
 
 
-@media (max-width: 920px){
 
+@media (max-height: 680px){
+  
   .bg-frontpage{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5vh;
+  justify-items: center;
   background-color: var(--primary-color);
-  margin: 0;
+  min-height: 720px;
   width: 100vw;
-  height: 100vh;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  height: 90vh;
+  clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+  
 }
 .title-introduction{
   text-align: center;
   margin-left: 3%;
   margin-right: 3%;
+  margin-top: 9%;
+}
+.title-introduction h1{
+  
+  font-size: 25px;
+}
+
+.title-introduction h2{
+  
+  font-size: 20px;
+  font-weight: lighter;
+  
+}
+.title-introduction P{
+  
+  font-size: 25px;
+  font-family: 'Oooh Baby', cursive;
+  margin-bottom: 45px;
+  
+}
+
+}
+
+@media (max-width: 769px){
+
+.bg-frontpage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0vh;
+  justify-items: center;
+  background-color: var(--primary-color);
+  min-height: 720px;
+  width: 100vw;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.title-introduction{
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
  
 }
 .title-introduction h1{
@@ -111,42 +162,28 @@ h1,h2,h3{
   
 }
 
-}
-@media (max-height: 680px){
-
-  .bg-frontpage{
+.btn-brand:visited{
+  display: block;
+  text-decoration: none;
   background-color: var(--primary-color);
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  color: white;
+  font-weight: bold;
+ 
 }
-.title-introduction{
-  text-align: center;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-top: 9%;
-}
-.title-introduction h1{
-
-  font-size: 25px;
-}
-
-.title-introduction h2{
-
-  font-size: 20px;
-  font-weight: lighter;
-  
-}
-.title-introduction P{
-
-  font-size: 25px;
-  font-family: 'Oooh Baby', cursive;
-  margin-bottom: 45px;
+.btn-brand:hover{
+  text-decoration: none;
+  display: block;
+  background-color: white;
+  color: var(--primary-color);
+  font-weight: bold;
   
 }
 
+.botton-container{
+  margin-top: 90px;
 }
-  
+
+
+}
 
 
