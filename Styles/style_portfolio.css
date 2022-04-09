@@ -1,54 +1,152 @@
 :root {
   --primary-color: #48d6d2;
-}
-h1,
-h2 {
-  font-family: "Work Sans", sans-serif;
+  --title-font: font-family: "Work Sans", sans-serif;
 }
 
-.home-page-title {
-  margin-left: 23%;
+h1,h2,h3{
+  font-family: var(--title-font);
 }
-.color-background {
-  max-width: 100%;
+
+.bg-frontpage{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  justify-items: center;
   background-color: var(--primary-color);
-  padding: 18% 0 14%;
+  min-height: 720px;
+  width: 100vw;
+  height: 90vh;
   clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+
 }
-.color-background h1 {
+
+.title-introduction{
+  margin-top: 20px;
   color: white;
+  margin-left: 20%;
+  
+}
+
+.title-introduction h1{
 
   font-size: 40px;
-  font-weight: bold;
 }
-.color-background h2 {
-  margin-bottom: 30px;
-  color: white;
-  font-size: 28px;
-  font-weight: 300;
+
+.title-introduction h2{
+
+  font-size: 30px;
+  font-weight: lighter;
+  
 }
-.button-container {
-  margin-top: 80px;
+.title-introduction P{
+
+  font-size: 32px;
+  font-family: 'Oooh Baby', cursive;
+  margin-bottom: 75px;
+  
 }
-.button {
-  margin-right: 97px;
+
+
+.btn-brand, bran{
   text-decoration: none;
-  color: white;
   background-color: var(--primary-color);
-  padding: 15px 30px;
-  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  padding: 15px 25px;
   border: 1px solid white;
-  font-size: 18px;
-  font-weight: 500;
+  border-radius: 15px;
 }
-.button:hover {
-  transition: all 200ms ease-in-out;
+.btn-brand:visited{
   text-decoration: none;
-  color: var(--primary-color);
-  background-color: white;
-  padding: 15px 30px;
-  border-radius: 15px;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  padding: 15px 25px;
   border: 1px solid white;
-  font-size: 18px;
-  font-weight: 500;
+  border-radius: 15px;
 }
+.btn-brand:hover{
+  text-decoration: none;
+  background-color: white;
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 15px 25px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+
+
+@media (max-width: 920px){
+
+  .bg-frontpage{
+  background-color: var(--primary-color);
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.title-introduction{
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+ 
+}
+.title-introduction h1{
+
+  font-size: 25px;
+}
+
+.title-introduction h2{
+
+  font-size: 20px;
+  font-weight: lighter;
+  
+}
+.title-introduction P{
+
+  font-size: 25px;
+  font-family: 'Oooh Baby', cursive;
+  margin-bottom: 45px;
+  
+}
+
+}
+@media (max-height: 680px){
+
+  .bg-frontpage{
+  background-color: var(--primary-color);
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.title-introduction{
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 9%;
+}
+.title-introduction h1{
+
+  font-size: 25px;
+}
+
+.title-introduction h2{
+
+  font-size: 20px;
+  font-weight: lighter;
+  
+}
+.title-introduction P{
+
+  font-size: 25px;
+  font-family: 'Oooh Baby', cursive;
+  margin-bottom: 45px;
+  
+}
+
+}
+  
+
+
