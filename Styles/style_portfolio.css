@@ -7,6 +7,13 @@ h1,h2,h3{
   font-family: var(--title-font);
 }
 
+.nav-bar-text{
+  font-family: var(--title-font);
+}
+.nav-bar-color{
+  color: var(--primary-color);
+}
+
 .bg-frontpage{
   display: flex;
   flex-direction: column;
@@ -72,6 +79,17 @@ h1,h2,h3{
   margin-top: 90px;
 }
 
+.navbar-light .navbar-nav .nav-link.active{
+  color: var(--primary-color);
+  font-weight: bold;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: white;
+  background-color: var(--primary-color);
+
+}
 
 
 @media (max-height: 680px){
@@ -108,7 +126,7 @@ h1,h2,h3{
   
   font-size: 25px;
   font-family: 'Oooh Baby', cursive;
-  margin-bottom: 45px;
+  margin-bottom: 45px; 
   
 }
 
