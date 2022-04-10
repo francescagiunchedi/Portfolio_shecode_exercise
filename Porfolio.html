@@ -16,27 +16,93 @@
       crossorigin="anonymous"
     />
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <script
       src="https://kit.fontawesome.com/8805a199d5.js"
       crossorigin="anonymous"
     ></script>
 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="/Styles/style_portfolio.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Frankie:portfolio</title>
+    
+    <title>Homepage Frankie's portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container-fluid bg-light mb-5" style="border-bottom: 2px solid var(--primary-color)">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid ms-5">
+    <a class="navbar-brand nav-bar-text" style="color: var(--primary-color);" href="/index.html"><strong>Frankie</strong></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ms-5" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link  nav-bar-text" aria-current="page" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active nav-bar-text" href="/Porfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-bar-text" href="/Porfolio.html#contact-me">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </div>
+    
+    <h1 class="text-center portfolio-title">My works</h1>
+    <div class="container-sm portfolio-page">
+      <div class="portfolio-page-margin">
+  
+        <div class="row d-flex justify-content-center portfolio-page-margin mb-5">
+          <div class="col-md-4">
+            <img class="mb-5 img-flud img-thumbnail shadow-sm" src="/img/Rock.JPG" alt="Rock_and_roll_site" max-width="500px">
+          </div>
+          <div class="col-md-4 text-center">
+            <h2 class="mb-4 ">Rock and Roll</h2> 
+            <p class="mb-5">Website done for a music gild of medieval music and medieval remix</p>
+            <a class="btn-brand" href="https://dancing-boba-612143.netlify.app/" target="_blank">Launch site</a>         
+          </div>
+        </div>
+  
+        <div class="row d-flex justify-content-center mb-5">
+          <div class="col-md-4 text-center  portfolio-infobox border-start-p">
+            <h2 class="mb-3">Weather app</h2> 
+            <p class="mb-5">Homework done for the course she code plus. <br />
+            functiona weather app</p>
+            <a class="btn-brand" href="https://confident-heisenberg-004c3f.netlify.app/" target="_blank">Launch site</a>         
+          </div>
+          <div class="col-md-4 portfolio-infobox border-end-p">
+            <img class="mb-5 img-flud img-thumbnail shadow-sm" src="img/weather.JPG" alt="weather-app-img" max-width="500px">
+          </div>
+        </div>
+      </div>   
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+    <div class="d-block">
+        <h1 class="text-center portfolio-title">Contacts</h1>
+        <br>
+      <br>
+        <div class="text-center mt-5 mb-5">
+          <a id="contact-me" href="mailto:fra9123@gmail.com" class="btn-brand">Email me</a>
+        </div>  
+        <br>
+      <br>
+      <br>
+      <br>     
+    </div>
+    
+
+
+  <body>
 </html>

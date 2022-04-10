@@ -1,6 +1,7 @@
 :root {
   --primary-color: #48d6d2;
   --title-font: font-family: "Work Sans", sans-serif;
+  --primary-color-alpha: rgba(72, 214, 210, 0.1);
 }
 
 h1,h2,h3{
@@ -62,17 +63,17 @@ h1,h2,h3{
   padding: 15px 30px;
   border: 1px solid white;
   border-radius: 15px;
-  margin-right: 60px;
+  
 }
 
 .btn-brand:hover{
   text-decoration: none;
   background-color: white;
   color: var(--primary-color);
-  font-weight: bold;
-  padding: 15px 25px;
-  border: 1px solid white;
-  border-radius: 15px;
+  border: 1px solid var(--primary-color);
+}
+.btn-margin{
+  margin-right: 60px;
 }
 
 .botton-container{
@@ -89,6 +90,28 @@ h1,h2,h3{
   color: white;
   background-color: var(--primary-color);
 
+}
+
+.portfolio-page-margin{
+  margin-top: 12vh;
+}
+
+.portfolio-infobox{
+  background-color: var(--primary-color-alpha);
+  padding: 30px 20px;
+  
+}
+.portfolio-title{
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+}
+
+.border-end-p{
+  border-radius: 0 15px 15px 0;
+}
+.border-start-p{
+  border-radius: 15px 0  0 15px;
 }
 
 
@@ -175,10 +198,9 @@ h1,h2,h3{
   background-color: white;
   color: var(--primary-color);
   font-weight: bold;
-  border: 1px solid white;
+  border: 1px solid var(--primary-color);
   border-radius: 0px;
   margin-bottom: 20px;
-  margin-right: 0px;
 }
 .btn-brand:hover{
   text-decoration: none;
@@ -189,6 +211,9 @@ h1,h2,h3{
   border-radius: 0px;
     margin-right: 0px;
 
+}
+.btn-margin{
+  margin-right: 0px;
 }
 
 .botton-container{
