@@ -2,8 +2,11 @@
   --primary-color: #48d6d2;
   --title-font: font-family: "Work Sans", sans-serif;
   --primary-color-alpha: rgba(72, 214, 210, 0.1);
+  --secondary-color: #f8f9fa;
 }
-
+body{
+  background-color: var(--secondary-color)
+}
 h1,h2,h3{
   font-family: var(--title-font);
 }
@@ -31,7 +34,7 @@ h1,h2,h3{
 
 .title-introduction{
   text-align: left;
-  color: white;
+  color: var(--secondary-color);
   
 }
 
@@ -58,19 +61,40 @@ h1,h2,h3{
 .btn-brand,.btn-brand:visited{
   text-decoration: none;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--secondary-color);
   font-weight: bold;
   padding: 15px 30px;
-  border: 1px solid white;
+  border: 1px solid var(--secondary-color);
   border-radius: 15px;
   
 }
 
 .btn-brand:hover{
   text-decoration: none;
-  background-color: white;
+  background-color: var(--secondary-color);
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  transition: all 150ms ease-in-out;
+}
+.btn-certificate,.btn-certificate:visited{
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 15px 30px;
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+  
+}
+
+.btn-certificate:hover{
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+    transition: all 150ms ease-in-out;
+
+  
 }
 .btn-margin{
   margin-right: 60px;
@@ -87,7 +111,7 @@ h1,h2,h3{
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-  color: white;
+  color: var(--secondary-color);
   background-color: var(--primary-color);
 
 }
@@ -103,7 +127,7 @@ h1,h2,h3{
 }
 .portfolio-title{
   background-color: var(--primary-color);
-  color: white;
+  color: var(--secondary-color);
   padding: 20px;
 }
 
@@ -195,7 +219,7 @@ h1,h2,h3{
 .btn-brand,.btn-brand:visited{
   text-decoration: none;
   display: block;
-  background-color: white;
+  background-color: var(--secondary-color);
   color: var(--primary-color);
   font-weight: bold;
   border: 1px solid var(--primary-color);
@@ -205,11 +229,13 @@ h1,h2,h3{
 .btn-brand:hover{
   text-decoration: none;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--secondary-color);
   font-weight: bold;
-  border: 1px solid white;
+  border: 1px solid var(--secondary-color);
   border-radius: 0px;
-    margin-right: 0px;
+  margin-right: 0px;
+  transition: all 150ms ease-in-out;
+
 
 }
 .btn-margin{
