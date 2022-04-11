@@ -10,6 +10,7 @@ body{
 }
 h1,h2,h3{
   font-family: var(--title-font);
+  line-height: 55px;
 }
 
 .nav-bar-text{
@@ -86,6 +87,7 @@ h1,h2,h3{
   border: 1px solid var(--primary-color);
   border-radius: 15px;
   margin: auto;
+  transition: all 150ms ease-in-out;
   
 }
 
@@ -94,8 +96,7 @@ h1,h2,h3{
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
-    transition: all 150ms ease-in-out;
-    margin: auto;
+  margin: auto;
 
   
 }
@@ -140,6 +141,21 @@ h1,h2,h3{
 }
 .border-start-p{
   border-radius: 15px 0  0 15px;
+}
+.ctn-about{
+  padding: 160px 0;
+}
+.ctn-about h1{
+  padding: 10px 0;
+}
+.ctn-about h2{
+  line-height: 40px;
+  padding: 10px 0;
+}
+.ctn-about a{
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-color);
 }
 
 
@@ -229,6 +245,8 @@ h1,h2,h3{
   border: 1px solid var(--primary-color);
   border-radius: 0px;
   margin-bottom: 20px;
+  transition: all 150ms ease-in-out;
+
 }
 .btn-brand:hover{
   text-decoration: none;
@@ -238,7 +256,6 @@ h1,h2,h3{
   border: 1px solid var(--secondary-color);
   border-radius: 0px;
   margin-right: 0px;
-  transition: all 150ms ease-in-out;
 
 
 }
