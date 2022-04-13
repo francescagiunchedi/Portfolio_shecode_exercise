@@ -18,11 +18,35 @@ h2 {
   font-family: var(--undertitle-font);
   font-weight: medium;
   font-style: italic;
-  padding: 30px 0;
-  line-height: 45px;
+  font-size: 22px;
+  line-height: 20px;
+  margin-bottom: 5;
 }
 p {
   font-family: var(--text-font);
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.page-margin a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration-line: underline;
+}
+.titles h1 {
+  font-family: var(--title-font);
+  font-weight: bold;
+}
+.titles h2 {
+  font-family: var(--undertitle-font);
+  font-weight: medium;
+  font-style: italic;
+  padding: 30px 0;
+  line-height: 45px;
 }
 
 .nav-bar-text {
@@ -45,20 +69,20 @@ p {
   clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
 }
 
-.title-introduction {
+.title-homepage {
   text-align: left;
   color: var(--secondary-color);
 }
 
-.title-introduction h1 {
+.title-homepage h1 {
   font-size: 40px;
 }
 
-.title-introduction h2 {
+.title-homepage h2 {
   font-size: 30px;
   font-weight: lighter;
 }
-.title-introduction P {
+.title-homepage P {
   font-size: 32px;
   font-family: "Oooh Baby", cursive;
   margin-bottom: 75px;
@@ -120,15 +144,15 @@ p {
   background-color: var(--primary-color);
 }
 
-.portfolio-page-margin {
+.page-margin {
   margin-top: 12vh;
 }
 
-.portfolio-infobox {
+.infobox {
   background-color: var(--primary-color-alpha);
   padding: 30px 20px;
 }
-.portfolio-title {
+.titles-page {
   background-color: var(--primary-color-alpha);
   color: var(--primary-color);
   padding: 20px;
@@ -140,24 +164,19 @@ p {
 .border-start-p {
   border-radius: 15px 0 0 15px;
 }
-.ctn-about {
+.container-page {
   padding: 160px 0;
   text-align: left;
 }
-.ctn-about h1 {
+.container-page h1 {
   padding: 10px 0;
 }
-.ctn-about h2 {
+.container-page h2 {
   line-height: 40px;
   padding: 10px 0;
 }
-.ctn-about a {
-  text-decoration: none;
-  font-weight: bold;
-  color: var(--primary-color);
-}
 
-.ctn-about img {
+.container-page img {
   min-width: 300px;
 }
 
@@ -174,30 +193,30 @@ p {
     height: 90vh;
     clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
   }
-  .title-introduction {
+  .title-homepage {
     text-align: left;
   }
-  .title-introduction h1 {
+  .title-homepage h1 {
     font-size: 25px;
   }
 
-  .title-introduction h2 {
+  .title-homepage h2 {
     font-size: 20px;
     font-weight: lighter;
   }
-  .title-introduction P {
+  .title-homepage P {
     font-size: 25px;
     font-family: "Oooh Baby", cursive;
     margin-bottom: 45px;
   }
-  .ctn-about {
+  .container-page {
     padding: 80px 0;
     text-align: left;
   }
-  .ctn-about h1 {
+  .container-page h1 {
     padding: 30px 0;
   }
-  .ctn-about h2 {
+  .container-page h2 {
     line-height: 40px;
     padding: 5px 0;
   }
@@ -216,18 +235,18 @@ p {
     height: 100vh;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
   }
-  .title-introduction {
+  .title-homepage {
     text-align: center;
   }
-  .title-introduction h1 {
+  .title-homepage h1 {
     font-size: 25px;
   }
 
-  .title-introduction h2 {
+  .title-homepage h2 {
     font-size: 20px;
     font-weight: lighter;
   }
-  .title-introduction P {
+  .title-homepage P {
     font-size: 25px;
     font-family: "Oooh Baby", cursive;
     margin-bottom: 45px;
@@ -262,7 +281,7 @@ p {
     margin-top: 90px;
     width: 100vw;
   }
-  .ctn-about {
+  .container-page {
     padding: 80px 0;
     text-align: center;
   }
