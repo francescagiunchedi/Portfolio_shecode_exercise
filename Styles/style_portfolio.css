@@ -13,18 +13,31 @@ body {
 h1 {
   font-family: var(--title-font);
   font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
 }
 h2 {
   font-family: var(--undertitle-font);
-  font-weight: medium;
   font-style: italic;
-  font-size: 22px;
-  line-height: 20px;
-  margin-bottom: 5;
+  font-size: 26px;
+  line-height: 40px;
 }
 p {
   font-family: var(--text-font);
+  font-size: 15px;
 }
+
+.title h2 {
+  font-family: var(--undertitle-font);
+  font-style: italic;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 5px;
+}
+.title p {
+  font-family: var(--text-font);
+}
+
 .default-link {
   text-decoration: none;
   font-weight: bold;
@@ -35,17 +48,6 @@ p {
   font-weight: bold;
   color: var(--primary-color);
   text-decoration-line: underline;
-}
-.titles h1 {
-  font-family: var(--title-font);
-  font-weight: bold;
-}
-.titles h2 {
-  font-family: var(--undertitle-font);
-  font-weight: medium;
-  font-style: italic;
-  padding: 30px 0;
-  line-height: 45px;
 }
 
 .nav-bar-text {
@@ -59,7 +61,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 5vh;
+  margin-top: 6vh;
   justify-items: center;
   background-color: var(--primary-color);
   min-height: 720px;
@@ -72,19 +74,17 @@ p {
   text-align: left;
   color: var(--secondary-color);
 }
-
 .title-homepage h1 {
+  font-family: var(--title-font);
+  font-weight: bold;
   font-size: 40px;
+  line-height: 50px;
 }
-
 .title-homepage h2 {
-  font-size: 30px;
-  font-weight: lighter;
-}
-.title-homepage P {
-  font-size: 32px;
-  font-family: "Oooh Baby", cursive;
-  margin-bottom: 75px;
+  font-family: var(--undertitle-font);
+  font-style: italic;
+  font-size: 26px;
+  line-height: 50px;
 }
 
 .btn-brand,
@@ -167,13 +167,6 @@ p {
   padding: 160px 0;
   text-align: left;
 }
-.container-page h1 {
-  padding: 10px 0;
-}
-.container-page h2 {
-  line-height: 40px;
-  padding: 10px 0;
-}
 
 .container-page img {
   min-width: 300px;
@@ -194,46 +187,26 @@ p {
     clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
   }
   .title-homepage {
-    text-align: left;
-  }
-  .title-homepage h1 {
-    font-size: 40px;
-    line-height: 53px;
+    text-align: center;
+    color: var(--secondary-color);
+    padding: 0 5px;
   }
 
-  .title-homepage h2 {
-    font-size: 29px;
-    font-weight: lighter;
-    line-height: 95px;
-    margin: -10px 0;
-  }
-  .title-homepage P {
-    font-size: 25px;
-    font-family: "Oooh Baby", cursive;
-    margin-bottom: 45px;
-  }
   .container-page {
     padding: 80px 0;
     text-align: left;
   }
-  .container-page h1 {
-    padding: 30px 0;
+  .default-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-color);
   }
-  .container-page h2 {
-    line-height: 40px;
-    padding: 5px 0;
+  .default-link:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-decoration-line: underline;
   }
-}
-.default-link {
-  text-decoration: none;
-  font-weight: bold;
-  color: var(--primary-color);
-}
-.default-link:hover {
-  text-decoration: none;
-  font-weight: bold;
-  color: var(--primary-color);
-  text-decoration-line: underline;
 }
 
 @media (max-width: 769px) {
@@ -251,19 +224,8 @@ p {
   }
   .title-homepage {
     text-align: center;
-  }
-  .title-homepage h1 {
-    font-size: 25px;
-  }
-
-  .title-homepage h2 {
-    font-size: 20px;
-    font-weight: lighter;
-  }
-  .title-homepage P {
-    font-size: 25px;
-    font-family: "Oooh Baby", cursive;
-    margin-bottom: 45px;
+    color: var(--secondary-color);
+    padding: 0 5px;
   }
 
   .btn-brand,
