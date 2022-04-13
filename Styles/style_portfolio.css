@@ -25,13 +25,12 @@ h2 {
 p {
   font-family: var(--text-font);
 }
-
-a {
+.default-link {
   text-decoration: none;
   font-weight: bold;
   color: var(--primary-color);
 }
-.page-margin a:hover {
+.default-link:hover {
   text-decoration: none;
   font-weight: bold;
   color: var(--primary-color);
@@ -191,18 +190,22 @@ a {
     min-height: 720px;
     width: 100vw;
     height: 90vh;
+    padding-top: 20px;
     clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
   }
   .title-homepage {
     text-align: left;
   }
   .title-homepage h1 {
-    font-size: 25px;
+    font-size: 40px;
+    line-height: 53px;
   }
 
   .title-homepage h2 {
-    font-size: 20px;
+    font-size: 29px;
     font-weight: lighter;
+    line-height: 95px;
+    margin: -10px 0;
   }
   .title-homepage P {
     font-size: 25px;
