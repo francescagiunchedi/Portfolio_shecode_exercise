@@ -13,12 +13,13 @@ body {
 h1 {
   font-family: var(--title-font);
   font-weight: bold;
-  font-size: 40px;
-  line-height: 50px;
 }
 h2 {
   font-family: var(--undertitle-font);
+  font-weight: medium;
   font-style: italic;
+<<<<<<< HEAD
+<<<<<<< HEAD
   font-size: 26px;
   line-height: 40px;
 }
@@ -32,13 +33,18 @@ p {
   font-family: var(--undertitle-font);
   font-style: italic;
   font-size: 20px;
+=======
+  font-size: 22px;
+>>>>>>> parent of f497eb0 (corrected mistake of titles css)
+=======
+  font-size: 22px;
+>>>>>>> parent of f497eb0 (corrected mistake of titles css)
   line-height: 20px;
-  margin: 5px;
+  margin-bottom: 5;
 }
-.title p {
+p {
   font-family: var(--text-font);
 }
-
 .default-link {
 =======
 a {
@@ -53,6 +59,17 @@ a {
   color: var(--primary-color);
   text-decoration-line: underline;
 }
+.titles h1 {
+  font-family: var(--title-font);
+  font-weight: bold;
+}
+.titles h2 {
+  font-family: var(--undertitle-font);
+  font-weight: medium;
+  font-style: italic;
+  padding: 30px 0;
+  line-height: 45px;
+}
 
 .nav-bar-text {
   font-family: var(--title-font);
@@ -65,7 +82,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 6vh;
+  margin-top: 5vh;
   justify-items: center;
   background-color: var(--primary-color);
   min-height: 720px;
@@ -78,17 +95,19 @@ a {
   text-align: left;
   color: var(--secondary-color);
 }
+
 .title-homepage h1 {
-  font-family: var(--title-font);
-  font-weight: bold;
   font-size: 40px;
-  line-height: 50px;
 }
+
 .title-homepage h2 {
-  font-family: var(--undertitle-font);
-  font-style: italic;
-  font-size: 26px;
-  line-height: 50px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.title-homepage P {
+  font-size: 32px;
+  font-family: "Oooh Baby", cursive;
+  margin-bottom: 75px;
 }
 
 .btn-brand,
@@ -171,6 +190,13 @@ a {
   padding: 160px 0;
   text-align: left;
 }
+.container-page h1 {
+  padding: 10px 0;
+}
+.container-page h2 {
+  line-height: 40px;
+  padding: 10px 0;
+}
 
 .container-page img {
   min-width: 300px;
@@ -191,6 +217,8 @@ a {
   }
   .title-homepage {
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     text-align: center;
     color: var(--secondary-color);
     padding: 0 5px;
@@ -206,28 +234,67 @@ a {
   .title-homepage h2 {
     font-size: 20px;
     font-weight: lighter;
+=======
+    text-align: left;
+  }
+  .title-homepage h1 {
+    font-size: 40px;
+    line-height: 53px;
+  }
+
+=======
+    text-align: left;
+  }
+  .title-homepage h1 {
+    font-size: 40px;
+    line-height: 53px;
+  }
+
+>>>>>>> parent of f497eb0 (corrected mistake of titles css)
+  .title-homepage h2 {
+    font-size: 29px;
+    font-weight: lighter;
+    line-height: 95px;
+    margin: -10px 0;
+<<<<<<< HEAD
+>>>>>>> parent of f497eb0 (corrected mistake of titles css)
+=======
+>>>>>>> parent of f497eb0 (corrected mistake of titles css)
   }
   .title-homepage P {
     font-size: 25px;
     font-family: "Oooh Baby", cursive;
     margin-bottom: 45px;
   }
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 7091595 (corrected title size and link color)
+=======
+>>>>>>> parent of f497eb0 (corrected mistake of titles css)
+=======
+>>>>>>> parent of f497eb0 (corrected mistake of titles css)
   .container-page {
     padding: 80px 0;
     text-align: left;
   }
-  .default-link {
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--primary-color);
+  .container-page h1 {
+    padding: 30px 0;
   }
-  .default-link:hover {
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--primary-color);
-    text-decoration-line: underline;
+  .container-page h2 {
+    line-height: 40px;
+    padding: 5px 0;
   }
+}
+.default-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.default-link:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration-line: underline;
 }
 
 @media (max-width: 769px) {
@@ -245,8 +312,19 @@ a {
   }
   .title-homepage {
     text-align: center;
-    color: var(--secondary-color);
-    padding: 0 5px;
+  }
+  .title-homepage h1 {
+    font-size: 25px;
+  }
+
+  .title-homepage h2 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .title-homepage P {
+    font-size: 25px;
+    font-family: "Oooh Baby", cursive;
+    margin-bottom: 45px;
   }
 
   .btn-brand,
