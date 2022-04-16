@@ -20,6 +20,7 @@ h2 {
   font-style: italic;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: 26px;
   line-height: 40px;
 }
@@ -33,6 +34,9 @@ p {
   font-family: var(--undertitle-font);
   font-style: italic;
   font-size: 20px;
+=======
+  font-size: 22px;
+>>>>>>> parent of f497eb0 (corrected mistake of titles css)
 =======
   font-size: 22px;
 >>>>>>> parent of f497eb0 (corrected mistake of titles css)
@@ -219,6 +223,7 @@ a {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     text-align: center;
     color: var(--secondary-color);
     padding: 0 5px;
@@ -251,12 +256,24 @@ a {
   }
 
 >>>>>>> parent of f497eb0 (corrected mistake of titles css)
+=======
+    text-align: left;
+  }
+  .title-homepage h1 {
+    font-size: 40px;
+    line-height: 53px;
+  }
+
+>>>>>>> parent of f497eb0 (corrected mistake of titles css)
   .title-homepage h2 {
     font-size: 29px;
     font-weight: lighter;
     line-height: 95px;
     margin: -10px 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of f497eb0 (corrected mistake of titles css)
+=======
 >>>>>>> parent of f497eb0 (corrected mistake of titles css)
 =======
 >>>>>>> parent of f497eb0 (corrected mistake of titles css)
@@ -268,7 +285,10 @@ a {
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 7091595 (corrected title size and link color)
+=======
+>>>>>>> parent of f497eb0 (corrected mistake of titles css)
 =======
 >>>>>>> parent of f497eb0 (corrected mistake of titles css)
 =======
