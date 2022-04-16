@@ -27,6 +27,7 @@ p {
   font-size: 15px;
 }
 
+<<<<<<< HEAD
 .title h2 {
   font-family: var(--undertitle-font);
   font-style: italic;
@@ -39,11 +40,14 @@ p {
 }
 
 .default-link {
+=======
+a {
+>>>>>>> parent of 7091595 (corrected title size and link color)
   text-decoration: none;
   font-weight: bold;
   color: var(--primary-color);
 }
-.default-link:hover {
+.page-margin a:hover {
   text-decoration: none;
   font-weight: bold;
   color: var(--primary-color);
@@ -183,15 +187,32 @@ p {
     min-height: 720px;
     width: 100vw;
     height: 90vh;
-    padding-top: 20px;
     clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
   }
   .title-homepage {
+<<<<<<< HEAD
     text-align: center;
     color: var(--secondary-color);
     padding: 0 5px;
   }
 
+=======
+    text-align: left;
+  }
+  .title-homepage h1 {
+    font-size: 25px;
+  }
+
+  .title-homepage h2 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .title-homepage P {
+    font-size: 25px;
+    font-family: "Oooh Baby", cursive;
+    margin-bottom: 45px;
+  }
+>>>>>>> parent of 7091595 (corrected title size and link color)
   .container-page {
     padding: 80px 0;
     text-align: left;
